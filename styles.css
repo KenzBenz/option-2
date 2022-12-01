@@ -12,16 +12,19 @@ body{
 If the logo is in the navigation bar, you will find more logo styles lower down on this page that you might need to change */
 #logo{
     /* NOTE If you change the font size then also look into changing the hamberger menu font size - You might want to keep them the same - but not too large. Check how it looks on your phone. */
+    font-family: 'Georgia', serif;
     font-size: 1.3em;
     /* Change the size based on how long the name is for your company. If your name is too long, then move it ourside the nav bar. Look in the HTML for the h1 comments for help */
     width:200px;
     display: block;
     margin-bottom: 20px;
+
 }
 
 
 p{
   line-height: 1.4;
+
 }
 
 .wrapper{
@@ -129,7 +132,7 @@ footer{
   /* Adds space above the footer */
   padding:10px;
   /* Keeps footer text and images away from edge */
-  background: #999;
+  background: #88A59C;
   /* Footer background color */
   color:white;
 }
@@ -166,11 +169,11 @@ nav #logo a{
 }
 /* Navigation bar styles */
 .mainNav {
-  background: #00411d;
+  background: #88A59C;
   /* Change bar color */
   color:#ffffff;
   /* Text color - For hamburger and company name*/
-  height: 55px;
+  height: 80px;
   /* How tall the nav bar is -
   NOTE This number needs to be in sync with the top number for .mainnav .menu below */
   position: relative;
@@ -188,7 +191,7 @@ nav a{
   text-decoration: none;
 }
 .mainNav .menu {
-  background: #00411d;
+  background: #88A59C;
   /* Change the bar color above */
   box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
   border-top: 1px solid #efefef;
@@ -199,7 +202,7 @@ nav a{
   text-align: center;
   /*POSITION*/
   position: absolute;
-  top: 55px;
+  top: 80px;
   /* NOTE Main nav height and this number need to be the same for drop down menu */
   right: 0;
   left: 0;
@@ -224,6 +227,7 @@ nav a{
   font-size: 1.2em;
   /* NOTE This will affect the thickness of the hamburger lines */
   line-height: 1.5em;
+  padding-top: 32px;
   float: right;
   text-align: right;
   /* HAMBURGER POSITION to the right*/
