@@ -12,7 +12,7 @@ body{
 If the logo is in the navigation bar, you will find more logo styles lower down on this page that you might need to change */
 #logo{
     /* NOTE If you change the font size then also look into changing the hamberger menu font size - You might want to keep them the same - but not too large. Check how it looks on your phone. */
-    font-family: 'Georgia', serif;
+    font-family: 'Lavishly Yours', cursive;
     font-size: 1.3em;
     /* Change the size based on how long the name is for your company. If your name is too long, then move it ourside the nav bar. Look in the HTML for the h1 comments for help */
     width:200px;
