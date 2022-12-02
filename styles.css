@@ -13,9 +13,9 @@ If the logo is in the navigation bar, you will find more logo styles lower down 
 #logo{
     /* NOTE If you change the font size then also look into changing the hamberger menu font size - You might want to keep them the same - but not too large. Check how it looks on your phone. */
     font-family: 'Lavishly Yours', cursive;
-    font-size: 1.3em;
+    font-size: 2.5em;
     /* Change the size based on how long the name is for your company. If your name is too long, then move it ourside the nav bar. Look in the HTML for the h1 comments for help */
-    width:200px;
+    /* width:200px; */
     display: block;
     margin-bottom: 20px;
 
@@ -148,7 +148,9 @@ footer div{
   /* This keeps content from getting too close to the right and left edge of the browser */
 }
 /* END Footer styles ------------------------ */
-
+.map{
+  margin-bottom: 10px;
+}
 
 
 
@@ -338,6 +340,7 @@ nav a{
       box-shadow: none;
       border: none;
       float: right;
+      padding-top: 20px;
       /* float:left; */
       /* NOTE LINKS POSITION to the left*/
       /* text-align: center; */
