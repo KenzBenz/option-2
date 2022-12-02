@@ -71,16 +71,70 @@
 					</figure>
 
 					<h2>Rental Inquiry</h2>
-					<p>Whether you're interested in hosting a company outing, business meeting, workshop, wedding, or party, we have you covered with our beatiful rental space. It is filled with large windows that overlook the gardens and can comfortably host 300 people. For more information fill out the form by clicking the photo below.</p>
+					<p>Whether you're interested in hosting a company outing, business meeting, workshop, wedding, or party, we have you covered with our beatiful rental space. It is filled with large windows that overlook the gardens and can comfortably host 300 people. For more information fill out the form below.</p>
 
 					<figure>
 							<img src="images/rental.jpg" alt="building photo" />
 							<figcaption>
 							Rental Space
 							</figcaption>
-
 					<!-- NOTE need contact form code.-->
 					</figure>
+					<form action="http://www.index.html/review.php" method="get">
+						<fieldset>
+							<legend>
+								Your Contact Info:
+							</legend>
+							<label>
+								Name:
+								<input type="text" name="size=30" maxlength="100">
+							</label>
+							<br>
+							<label>
+								Email:
+								<input type="email" size="30" maxlength="100">
+							</label>
+							<br>
+						</fieldset>
+						<br>
+						<fieldset>
+							<legend>
+								Rental inquiry
+							</legend>
+							<!-- <p>
+								<label for="pricing-availability">
+									Are you interested in:
+								</label>
+								<select name="referrer" id="pricing-availability">
+									<option value="pricing">Pricing</option>
+									<option value="availability">Availability</option>
+									<option value="both">Both</option>
+								</select>
+							</p> -->
+							<p>
+								Are you interested in information on:
+								<br>
+								<label>
+									<input type="radio" name="rating" value="Pricing" />
+									Pricing
+								</label>
+								<label>
+									<input type="radio" name="rating" value="Availability" />
+									Availability
+								</label>
+								<label>
+									<input type="radio" name="rating" value="Both" />
+									Both
+								</label>
+							</p>
+							<p>
+								<label for="Questions or Comments">
+									Questions or Comments:
+								</label>
+								<input type="submit" value="Submit Inquiry" />
+							</fieldset>
+						</form>
+
 
 				</div><!-- end 1st columns-->
 
