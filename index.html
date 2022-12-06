@@ -68,6 +68,7 @@
 
 					<figure>
 						<img src="images/storyarch.jpg" alt="Floral Arch" />
+						<!--https://images.unsplash.com/photo-1558293842-c0fd3db86157?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2FyZGVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60-->
 					</figure>
 
 					<h2>Rental Inquiry</h2>
@@ -75,6 +76,7 @@
 
 					<figure>
 							<img src="images/rental.jpg" alt="building photo" />
+							<!-- https://waterfrontgardens.org/wp-content/uploads/2022/03/Farm-Table-set-up-rotated.jpg-->
 							<figcaption>
 							Rental Space
 							</figcaption>
@@ -86,13 +88,13 @@
 								Your Contact Info:
 							</legend>
 							<label>
-								Name:
-								<input type="text" name="size=30" maxlength="100">
+								Name:<br>
+								<input class="textboxes" type="text" name="size=30" maxlength="100">
 							</label>
 							<br>
 							<label>
-								Email:
-								<input type="email" size="30" maxlength="100">
+								Email:<br>
+								<input class="textboxes" type="email" size="30" maxlength="100">
 							</label>
 							<br>
 						</fieldset>
@@ -101,16 +103,7 @@
 							<legend>
 								Rental inquiry
 							</legend>
-							<!-- <p>
-								<label for="pricing-availability">
-									Are you interested in:
-								</label>
-								<select name="referrer" id="pricing-availability">
-									<option value="pricing">Pricing</option>
-									<option value="availability">Availability</option>
-									<option value="both">Both</option>
-								</select>
-							</p> -->
+
 							<p>
 								Are you interested in information on:
 								<br>
@@ -129,10 +122,13 @@
 							</p>
 							<p>
 								<label for="Questions or Comments">
-									Questions or Comments:
-								</label>
+									Questions or Comments:<br>
+									<!-- <input class="qc" type="text area"> -->
+									<textarea class="textboxes" id="qc"></textarea>
+								</label><br>
 								<input type="submit" value="Submit Inquiry" />
 							</fieldset>
+							</p>
 						</form>
 
 
@@ -149,6 +145,7 @@
 					<h2>Seasonal Information</h2>
 
 					<img src="images/seasonal.jpg" alt="Christmas Lights" />
+					<!--https://images.unsplash.com/photo-1512911122913-094837b6fd2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2ludGVyJTIwbGlnaHRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60-->
 					<h3>Winter Wonderland Spectacular</h3>
 					<p>Come see us at our 2nd annual "Winter Wonderland Spectacular!" Enjoy our beatifully lit garden paths, a visit with Santa and his reindeer, and some favorite holiday refreshments. Tickets are $10 per person, and free for children under the age of 5. We hope to see you there!</p>
 
@@ -168,7 +165,7 @@
 	<footer>
 		<div class="footer-wrapper">
 
-			<p>Copyright &copy; 1996-2015 National Geographic Society</p>
+			<p>Copyright &copy; 2021-2023 The Ancient Forest Botanical Gardens</p>
 
 			<div class="fa fa-facebook-official"> </div>
 			<div class="fa fa-twitter"> </div>

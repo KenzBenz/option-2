@@ -21,7 +21,18 @@ If the logo is in the navigation bar, you will find more logo styles lower down 
 
 }
 
-
+label{
+  display: block;
+}
+.qc{
+  min-height: 200px;
+}
+textarea{
+  width: 100%;
+}
+.textboxes{
+  width: 100%;
+}
 p{
   line-height: 1.4;
 
@@ -175,7 +186,7 @@ nav #logo a{
   /* Change bar color */
   color:#ffffff;
   /* Text color - For hamburger and company name*/
-  height: 80px;
+  height: 150px;
   /* How tall the nav bar is -
   NOTE This number needs to be in sync with the top number for .mainnav .menu below */
   position: relative;
@@ -203,7 +214,7 @@ nav a{
   text-align: center;
   /*POSITION*/
   position: absolute;
-  top: 80px;
+  top: 150px;
   /* NOTE Main nav height and this number need to be the same for drop down menu */
   right: 0;
   left: 0;
@@ -228,7 +239,7 @@ nav a{
   font-size: 1.2em;
   /* NOTE This will affect the thickness of the hamburger lines */
   line-height: 1.5em;
-  padding-top: 32px;
+  padding-top: 90px;
   float: right;
   text-align: right;
   /* HAMBURGER POSITION to the right*/
@@ -330,7 +341,7 @@ nav a{
       display: none;
     }
     #logo{
-        padding-top:10px;
+        padding-top:70px;
     }
     #logo a{
 
@@ -340,7 +351,7 @@ nav a{
       box-shadow: none;
       border: none;
       float: right;
-      padding-top: 20px;
+      padding-top: 77px;
       /* float:left; */
       /* NOTE LINKS POSITION to the left*/
       /* text-align: center; */
